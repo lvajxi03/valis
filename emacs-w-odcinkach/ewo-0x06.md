@@ -67,7 +67,7 @@ Fałsz:
 Moduły ładowane są funkcją require o składni:
 
 ```elisp
-(require ‚nazwa-modułu)
+(require 'nazwa-modułu)
 ```
 
 Dokumentacja mówi jeszcze o różnych parametrach opcjonalnych, które na tym etapie nie są jeszcze potrzebne.
