@@ -101,3 +101,6 @@ void loop() {
 }
 ```
 
+Efekt?
+
+[![Arduino 1x7](https://img.youtube.com/vi/fOzLJ4elDzo/0.jpg)](https://youtube.com/watch?v=fOzLJ4elDzo)
