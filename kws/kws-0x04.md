@@ -54,10 +54,11 @@ void loop() {
 }
 ```
 
-Konstrukcja programów dla _Adruino_ jest dokładnie taka sama: jedna funkcja inicjalizująca (`setup`) i jedna działająca _w kółko_ (`loop`) -- to dość istotna wiedza, czasami dopiero odpięcie zasilania lub przycisk reset przynosi wybawienie.
+Konstrukcja programów dla _Adruino_ jest dokładnie taka sama: jedna funkcja inicjalizująca (`setup()`) i jedna działająca _w kółko_ (`loop()`) -- to dość istotna wiedza, czasami dopiero odpięcie zasilania lub przycisk reset przynosi wybawienie.
+
+W funkcji `loop()` nie trzeba umieszczać już własnych konstrukcji zapętlających, skoro sama funkcja jest zapętlona w nieskończoność.
 
 Funkcje użyte w przykładzie:
 * `pinMode` -- ustawia pin o danym numerze (tu: `LED_BUILTIN`) jako wyjściowy,
 * `digitalWrite` -- ustawia określonemu pinowi podany stan (niski bądź wysoki)
 * `delay` -- pauzuje przez podaną liczbę milisekund.
-
